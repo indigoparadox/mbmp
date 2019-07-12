@@ -8,6 +8,8 @@ BINDIR_MSP430G2553 = ../bin/msp430g2553
 
 MD=mkdir -v -p
 
+CFLAGS := -Wall -Werror -I../../mfat/src
+
 $(BINDIR_LINUX)/libmbmp.a: OBJDIR := ../obj/linux
 
 $(BINDIR_MSP430G2553)/libmbmp.a: OBJDIR := ../obj/msp430g2553
