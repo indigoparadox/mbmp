@@ -2,7 +2,9 @@
 #ifndef MBMP_H
 #define MBMP_H
 
+#ifndef NO_STD_HEADERS
 #include <stdint.h>
+#endif /* NO_STD_HEADERS */
 
 #include <mfat.h>
 
