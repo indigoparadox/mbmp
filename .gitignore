@@ -1,2 +1,6 @@
 obj
 bin
+CMakeFiles
+cmake_install.cmake
+Makefile
+build
